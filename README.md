@@ -1,6 +1,6 @@
 # Material UI Confirm Button
 
-![demo](Screenshots/demo.gif)
+![demo](examples/demo.gif)
 
 ***
 
