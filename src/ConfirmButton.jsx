@@ -1,8 +1,23 @@
 import React from 'react';
 import RaisedButton from 'material-ui/RaisedButton';
 import FlatButton from 'material-ui/FlatButton';
+import PropTypes from 'prop-types';
 
 class ConfirmButton extends React.Component {
+
+    static propTypes = {
+        onSubmit: PropTypes.func.isRequired,
+        onOpen: PropTypes.func,
+        onCancel: PropTypes.func,
+        isFlat: PropTypes.bool,
+        icon: PropTypes.element,
+        label: PropTypes.string,
+        cancelIcon: PropTypes.element,
+        cancelMessage: PropTypes.string,
+        confirmIcon: PropTypes.element,
+        confirmMessage: PropTypes.string,
+    }
+
     constructor(props) {
         super(props);
         const {
