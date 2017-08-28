@@ -1,6 +1,6 @@
 {
   "name": "material-ui-confirm-button",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A flexible Material UI component to allow confirming of button press",
   "main": "lib/ConfirmButton.js",
   "author": "Mark Katerberg <mark.katerberg@slalom.com> (https://slalom.com)",
