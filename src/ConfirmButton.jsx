@@ -81,13 +81,13 @@ class ConfirmButton extends React.Component {
                     {!this.isFlat && <RaisedButton
                         icon={this.icon}
                         label={this.label}
-                        onTouchTap={() => this.handleOpen()}
+                        onClick={() => this.handleOpen()}
                         {...this.other} />
                     }
                     {this.isFlat && <FlatButton
                         icon={this.icon}
                         label={this.label}
-                        onTouchTap={() => this.handleOpen()}
+                        onClick={() => this.handleOpen()}
                         {...this.other} />
                     }
                 </span>}
@@ -96,23 +96,23 @@ class ConfirmButton extends React.Component {
                         <RaisedButton
                             label={this.cancelMessage}
                             {...this.other}
-                            onTouchTap={() => this.handleCancel()} />
+                            onClick={() => this.handleCancel()} />
                         <RaisedButton
                             secondary
                             label={this.confirmMessage}
                             {...this.other}
-                            onTouchTap={() => this.onSubmit()} />
+                            onClick={() => this.onSubmit()} />
                     </span>}
                     {this.isFlat && <span>
                         <FlatButton
                             label={this.cancelMessage}
                             {...this.other}
-                            onTouchTap={() => this.handleCancel()} />
+                            onClick={() => this.handleCancel()} />
                         <FlatButton
                             secondary
                             label={this.confirmMessage}
                             {...this.other}
-                            onTouchTap={() => this.onSubmit()} />
+                            onClick={() => this.onSubmit()} />
                     </span>}
                 </span>}
             </span>

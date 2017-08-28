@@ -29,8 +29,7 @@
   },
   "peerDependencies": {
     "material-ui": "<1.0.0",
-    "react": "^15.4.2",
-    "react-tap-event-plugin": "^2.0.0"
+    "react": "^15.4.2"
   },
   "scripts": {
     "build": "rimraf lib && babel -d lib src",
